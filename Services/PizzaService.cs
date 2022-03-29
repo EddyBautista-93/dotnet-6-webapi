@@ -15,6 +15,7 @@ public static class PizzaService
         };
     }
 
+    // Grab all the pizzas from the pizza list. 
     public static List<Pizza> GetAll() => Pizzas;
 
     // Grab the Pizza specific to its Id.
